@@ -24,18 +24,10 @@ To prepare your app, complete the steps in the following sections:
 
     ```yaml
     dependencies:
-      ap_mediation_sdk: ^0.1.0
+      ap_mediation_sdk: ^1.0.0
     ```
 
    Alternatively, your editor might support `flutter pub get`. Check the docs for your editor to learn more.
-
-2. **Import it:**
-
-   Now in your Dart code, you can use:
-
-    ```dart
-    import 'package:ap_mediation_sdk/ap_mediation_sdk.dart';
-    ```
 
 
 ### B: Usage:

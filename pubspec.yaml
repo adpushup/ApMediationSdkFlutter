@@ -1,7 +1,7 @@
 name: ap_mediation_sdk
 description: "Ap Mediation Demand Plugin for Flutter by AdPushup"
-version: 0.1.0
-homepage: https://github.com/adpushup/AdMobApMediationSdkFlutter
+version: 1.0.0
+homepage: https://github.com/adpushup/ApMediationSdkFlutter
 
 environment:
   sdk: ^3.7.0
