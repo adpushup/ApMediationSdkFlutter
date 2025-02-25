@@ -13,7 +13,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   void initState() {
     super.initState();
@@ -25,12 +24,8 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Ap Mediation SDK Example App'),
-        ),
-        body: Center(
-          child: Text('AdMob Test - No Code Changes Required')
-        ),
+        appBar: AppBar(title: const Text('Ap Mediation SDK Example App')),
+        body: Center(child: Text('AdMob Test - No Code Changes Required')),
       ),
     );
   }

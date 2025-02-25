@@ -10,13 +10,13 @@ void main() {
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(channel, (MethodCall methodCall) async {
-      if (methodCall.method == 'enableDebug') {
-        final bool isEnable = methodCall.arguments['isEnable'];
-        expect(isEnable, isA<bool>()); // Ensure it's a boolean
-        return null; // Simulate native method returning nothing
-      }
-      return null;
-    });
+          if (methodCall.method == 'enableDebug') {
+            final bool isEnable = methodCall.arguments['isEnable'];
+            expect(isEnable, isA<bool>()); // Ensure it's a boolean
+            return null; // Simulate native method returning nothing
+          }
+          return null;
+        });
   });
 
   tearDown(() {
@@ -24,9 +24,12 @@ void main() {
         .setMockMethodCallHandler(channel, null);
   });
 
-  test('enableDebug() should call platform channel with correct value', () async {
-    await ApMediationSdk.enableDebug(true);
-  });
+  test(
+    'enableDebug() should call platform channel with correct value',
+    () async {
+      await ApMediationSdk.enableDebug(true);
+    },
+  );
 
   test('enableDebug() should work with false value', () async {
     await ApMediationSdk.enableDebug(false);
