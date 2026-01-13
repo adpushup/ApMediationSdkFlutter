@@ -23,3 +23,5 @@ flutter:
       android:
         package: com.adpushup.ap_mediation_sdk
         pluginClass: ApMediationSdkPlugin
+      ios:
+        pluginClass: ApMediationSdkPlugin

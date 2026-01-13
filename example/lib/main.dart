@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
     // You can enabled Debug mode to see logs if required.
-    // ApMediationSdk.enableDebug(true);
+    ApMediationSdk.enableDebug(true);
   }
 
   @override
