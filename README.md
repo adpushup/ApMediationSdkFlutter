@@ -24,7 +24,7 @@ To prepare your app, complete the steps in the following sections:
 
     ```yaml
     dependencies:
-      ap_mediation_sdk_flutter: ^1.0.0
+      ap_mediation_sdk_flutter: ^1.0.2
     ```
 
    Alternatively, your editor might support `flutter pub get`. Check the docs for your editor to learn more.
