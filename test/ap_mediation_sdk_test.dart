@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ap_mediation_sdk/ap_mediation_sdk.dart';
+import 'package:ap_mediation_sdk_flutter/ap_mediation_sdk.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

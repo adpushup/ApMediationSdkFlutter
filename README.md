@@ -17,14 +17,14 @@ To prepare your app, complete the steps in the following sections:
    With Flutter:
 
     ```bash
-    flutter pub add ap_mediation_sdk
+    flutter pub add ap_mediation_sdk_flutter
     ```
 
    This will add a line like this to your package's pubspec.yaml (and run an implicit `flutter pub get`):
 
     ```yaml
     dependencies:
-      ap_mediation_sdk: ^1.0.0
+      ap_mediation_sdk_flutter: ^1.0.2
     ```
 
    Alternatively, your editor might support `flutter pub get`. Check the docs for your editor to learn more.
